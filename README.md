@@ -28,17 +28,6 @@ Inspired by brands like Stripe and Vercel, the site uses:
 
 Live site hosted on [Netlify](https://www.netlify.com/) or [GitHub Pages](https://pages.github.com/)
 
-## 📁 Folder Structure
-├── index.html 
-├── /css 
-│ └── styles.css 
-├── /js 
-│ └── script.js 
-├── /assets 
-│ ├── images/ 
-│ └── icons/
-
-
 ## ✨ Credits
 
 Designed and developed by Fikayo as part of a front-end portfolio series.
