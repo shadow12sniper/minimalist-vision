@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Lena Hart – Minimalist Visual Designer</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,600|Poppins:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="container hero-content">
+      <h1>Lena Hart</h1>
+      <p class="tagline">Designing clarity through simplicity</p>
+      <a href="#portfolio" class="cta-btn">View Work</a>
+    </div>
+  </header>
+
+  <!-- Portfolio Gallery -->
+  <section id="portfolio" class="portfolio-section">
+    <div class="container">
+      <h2>Portfolio</h2>
+      <div class="portfolio-grid">
+        <div class="portfolio-item">
+          <div class="portfolio-img placeholder"></div>
+          <h3>Monochrome Identity</h3>
+          <p>Branding and visual identity for a boutique coffee shop.</p>
+        </div>
+        <div class="portfolio-item">
+          <div class="portfolio-img placeholder"></div>
+          <h3>Simple App UI</h3>
+          <p>Minimal mobile app interface for a wellness startup.</p>
+        </div>
+        <div class="portfolio-item">
+          <div class="portfolio-img placeholder"></div>
+          <h3>Portfolio Website</h3>
+          <p>Clean, modern portfolio for a digital creative.</p>
+        </div>
+        <div class="portfolio-item">
+          <div class="portfolio-img placeholder"></div>
+          <h3>Museum Poster Series</h3>
+          <p>Striking poster campaign for a Berlin art exhibition.</p>
+        </div>
+        <div class="portfolio-item">
+          <div class="portfolio-img placeholder"></div>
+          <h3>Editorial Layout</h3>
+          <p>Magazine spread with bold typography and layout.</p>
+        </div>
+        <div class="portfolio-item">
+          <div class="portfolio-img placeholder"></div>
+          <h3>Concept Landing Page</h3>
+          <p>Minimalist landing page for a SaaS beta launch.</p>
+        </div>
+        <div class="portfolio-item">
+          <div class="portfolio-img placeholder"></div>
+          <h3>Brand Guidelines</h3>
+          <p>Comprehensive digital brand guidelines for a nonprofit.</p>
+        </div>
+        <div class="portfolio-item">
+          <div class="portfolio-img placeholder"></div>
+          <h3>Product Packaging</h3>
+          <p>Elegant packaging design for a skincare line.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="container about-content">
+      <div class="about-photo placeholder"></div>
+      <div>
+        <h2>About Lena</h2>
+        <p>
+          Based in Berlin, Lena Hart is a minimalist visual designer passionate about creating clarity through simplicity. With a focus on monochrome palettes, Lena crafts thoughtful digital and print experiences that emphasize usability, whitespace, and modern aesthetics.
+        </p>
+        <h3>Tools</h3>
+        <ul class="tools-list">
+          <li>Figma</li>
+          <li>Adobe XD</li>
+          <li>Sketch</li>
+          <li>Illustrator</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials-section">
+    <div class="container">
+      <h2>Testimonials</h2>
+      <div class="testimonials-grid">
+        <blockquote>
+          <p>“Lena has a remarkable eye for detail. Her designs helped our brand stand out with elegance and clarity.”</p>
+          <footer>— Max S., Creative Director</footer>
+        </blockquote>
+        <blockquote>
+          <p>“Professional, responsive, and always on time. Working with Lena was a smooth and inspiring experience.”</p>
+          <footer>— Julia W., Startup Founder</footer>
+        </blockquote>
+        <blockquote>
+          <p>“Lena’s minimalist approach brought a new level of sophistication to our project.”</p>
+          <footer>— Leon T., Project Manager</footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2>Contact</h2>
+      <form id="contactForm" class="contact-form" autocomplete="off" novalidate>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+          <span class="error-message"></span>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+          <span class="error-message"></span>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+          <span class="error-message"></span>
+        </div>
+        <button type="submit" class="cta-btn">Send Message</button>
+        <div id="formResponse" class="form-response"></div>
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>&copy; 2025 Lena Hart. Berlin, DE</span>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
